@@ -1,5 +1,5 @@
 🏥 Enterprise ICU Sepsis Risk Prediction Platform
-### Production-Grade ML Pipeline · 20M Patient Records · 99.75% F1 Score
+### Production-Grade ML Pipeline · 20M Patient Records · Near-Perfect F1 Score
 
 ![Azure](https://img.shields.io/badge/Azure_ML-Studio-0078D4?style=for-the-badge&logo=microsoftazure)
 ![Fabric](https://img.shields.io/badge/Microsoft-Fabric-7B2FBE?style=for-the-badge&logo=microsoft)
@@ -14,7 +14,7 @@
 
 A **production-grade, end-to-end ML data platform** built on Microsoft Azure that predicts sepsis risk across ICU patient populations. This platform demonstrates enterprise data engineering principles — Medallion Architecture, automated ML pipelines, clinical feature engineering, and real-time BI — at a scale that mirrors real hospital deployments.
 
-> **Trained on 20,000,000 patient records. Achieved 99.75% F1 Score and perfect 100% AUC-ROC discrimination. Scored 91,713 real ICU patients with millisecond inference latency.**
+> **Trained on 20,000,000 patient records. Observed near-perfect F1 and AUC scores on the synthetically balanced dataset. Scored 91,713 real ICU patients with millisecond inference latency.**
 
 ---
 
