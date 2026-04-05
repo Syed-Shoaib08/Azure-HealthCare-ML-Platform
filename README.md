@@ -77,6 +77,20 @@ Raw CSV → Bronze → Silver → Gold → Azure ML → Lakehouse → Power BI
 
 ---
 
+## 🧠 Real-World Considerations & Limitations
+
+While the platform demonstrates strong performance under controlled conditions, several real-world considerations apply:
+
+- **Synthetic Data Bias** — SMOTE-based scaling improves recall but may introduce distributional artifacts not present in real ICU populations  
+- **Data Drift** — Patient demographics and clinical practices vary across hospitals, requiring continuous monitoring and retraining  
+- **Label Quality** — ICU datasets often contain noisy or delayed sepsis labels, impacting model reliability  
+- **Clinical Risk Trade-offs** — High recall reduces missed sepsis cases but may increase false positives, leading to alert fatigue  
+- **Deployment Constraints** — Integration with EHR systems (FHIR APIs) and compliance with HIPAA/FDA regulations would be required in production  
+
+Future validation should include temporal splits, external hospital datasets, and prospective evaluation in clinical workflows.
+
+---
+
 ## 🔬 Clinical Risk Stratification
 
 | Risk Level | Threshold | Patient Count | Clinical Action |
